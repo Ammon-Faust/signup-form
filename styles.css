@@ -3,7 +3,7 @@
     src: url("./fonts/Norse-Bold.otf");
 }
 body {
-    font-family: Norse-Bold, sans-serif, Arial, Helvetica;
+    font-family: sans-serif, Arial, Helvetica, Norse-Bold;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -25,6 +25,20 @@ body {
 }
 
 #odin {
+    font-family: Norse-Bold;
     color: white;
     font-size: 8rem;
+}
+
+#credit {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 10rem;
+}
+
+a {
+    color: white;
 }
