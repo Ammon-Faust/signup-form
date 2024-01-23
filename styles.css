@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url("./fonts/Norse-Bold.otf");
+}
 body {
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: Norse-Bold, sans-serif, Arial, Helvetica;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -9,4 +13,18 @@ body {
     background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     width: 600px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    background-color: rgba(0,0,0,0.5);
+    height: 200px;
+}
+
+#odin {
+    color: white;
+    font-size: 8rem;
 }
