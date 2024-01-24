@@ -47,6 +47,7 @@ a {
     display: flex;
     flex-direction: column;
 }
+
 #title {
     background-color: rgb(238, 238, 238);
     font-weight: bold;
@@ -54,3 +55,39 @@ a {
     text-align: left;
     padding: 6rem 18rem 5rem 5rem;
 }
+
+.form {
+    padding: 0 18rem 5rem 5rem;
+    box-shadow: 5px 5px 12px rgba(0,0,0,.2);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: 4rem;
+}
+
+.clear {
+    clear: both;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: hsl(0, 0%, 25%);
+    padding-bottom: 5px;
+}
+
+input {
+    border-radius: 5px;
+    height: 2rem;
+    border-width: thin;
+}
+
+input:active, input:focus {
+    border: 2px solid blue;
+}
+
+
+
