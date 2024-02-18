@@ -1,10 +1,10 @@
-## signup-form
+# signup-form
 
 Signup form built using HTML and CSS
 
 # Information about Project
 
-This project was go learn how to make and style
+This project was about learning how to make and style
 forms.
 
 # Structure
